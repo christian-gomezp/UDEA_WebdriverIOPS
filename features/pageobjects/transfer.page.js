@@ -8,9 +8,9 @@ class TransferPage extends Page {
     /**
      * define selectors using getter methods
      */
-    get inputAmount () {
-        return $("//input[@id='amount']");
-    }
+  get inputAmount() {
+    return $("//input[@id='amount']");
+  }
 
     get inputFrom () {
         return $("//select[@id='fromAccountId']");
