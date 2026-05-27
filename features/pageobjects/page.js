@@ -12,3 +12,5 @@ export default class Page {
         return browser.url(`${config.baseUrl}/${path}.htm`);
     }
 }
+
+export const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
