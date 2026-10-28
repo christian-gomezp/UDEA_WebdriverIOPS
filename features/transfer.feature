@@ -10,4 +10,4 @@ Feature: Para Bank transfer Feature
 
     Examples:
       | fromAccountId | toAccountId | amount | message            |
-      |         17229 |       17340 |    100 | Transfer Complete! |
+      |         12456 |       12567 |    12 | Transfer Complete! |
