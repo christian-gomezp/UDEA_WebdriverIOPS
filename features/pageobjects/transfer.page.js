@@ -35,9 +35,6 @@ class TransferPage extends Page {
     return super.open("transfer");
   }
 
-  get successfulTransferTitle() {
-    return $("#rightPanel > div > div > h1");
-  }
 }
 
 export default new TransferPage();
